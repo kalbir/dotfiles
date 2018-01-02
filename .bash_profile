@@ -10,6 +10,9 @@ PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
 # Add homebrew php to `$PATH`
 PATH="/usr/local/Cellar/php70/7.0.19_11/bin:$PATH"
 
+# BELOW THIS LINE CAME LARGELY FROM dev-setup (https://github.com/kalbir/dev-setup) and is specific to that process)
+# --------------------------------------------------
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
@@ -55,6 +58,9 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# BACK TO ME DOING THINGS
+# ---------------------------------------------
 
 # Add rbenv to path
 export PATH="/usr/local/rbenv/bin:$PATH"
