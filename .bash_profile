@@ -69,14 +69,6 @@ export PATH="/usr/local/rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="/usr/local/opt/qt@5.5/bin:$PATH"
 
-# Add asdf (version manager) to PATH
-#export PATH= "$HOME/.asdf/asdf.sh:$PATH"
-
-#export PATH="$HOME/.asdf/completions/asdf.bash:$PATH"
-#. $HOME/.asdf/asdf.sh
-
-#. $HOME/.asdf/completions/asdf.bash
-
 # Add the brew version of asdf
 source /usr/local/opt/asdf/asdf.sh
 
