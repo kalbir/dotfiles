@@ -62,13 +62,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # BACK TO ME DOING THINGS
 # ---------------------------------------------
 
-# Add rbenv to path
-export PATH="/usr/local/rbenv/bin:$PATH"
-
-# Add this coz rbenv told me to!
-eval "$(rbenv init -)"
-export PATH="/usr/local/opt/qt@5.5/bin:$PATH"
-
 # Add the brew version of asdf
 source /usr/local/opt/asdf/asdf.sh
 
