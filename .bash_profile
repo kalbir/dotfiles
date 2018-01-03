@@ -4,11 +4,11 @@ export PATH="$HOME/bin:$PATH";
 # Add sbin to path, as per `brew doctor`
 export PATH="/usr/local/sbin:$PATH"
 
+# Add the brew version of asdf
+source /usr/local/opt/asdf/asdf.sh
+
 # Add postgres app to the `$PATH`
 PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
-
-# Add homebrew php to `$PATH`
-PATH="/usr/local/Cellar/php70/7.0.19_11/bin:$PATH"
 
 # BELOW THIS LINE CAME LARGELY FROM dev-setup (https://github.com/kalbir/dev-setup) and is specific to that process)
 # --------------------------------------------------
@@ -58,10 +58,3 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
-
-# BACK TO ME DOING THINGS
-# ---------------------------------------------
-
-# Add the brew version of asdf
-source /usr/local/opt/asdf/asdf.sh
-
