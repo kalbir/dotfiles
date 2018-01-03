@@ -65,7 +65,3 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # Add the brew version of asdf
 source /usr/local/opt/asdf/asdf.sh
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/kalbirsohi/.sdkman"
-[[ -s "/Users/kalbirsohi/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/kalbirsohi/.sdkman/bin/sdkman-init.sh"
-export PATH="/usr/local/sbin:$PATH"
